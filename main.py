@@ -57,8 +57,8 @@ def load_theme_db():
 
 def print_errors_and_exit():
     for error in error_list:
-        print(f"::error {error}")
-    sys.exit()
+        print(f"::error:: {error}")
+    sys.exit(len(error_list))
 
 
 def add_error(message, is_fatal=False):
