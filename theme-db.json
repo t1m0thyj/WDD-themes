@@ -51,24 +51,6 @@
         ],
         "sunPhases": null
     },
-    "BitDay": {
-        "themeUrl": "https://bitbucket.org/t1m0thyj/wdd-themes/downloads/BitDay.ddw",
-        "themeType": "art",
-        "displayName": null,
-        "imageCredits": "BloodyMarvellous",
-        "fileSize": 5714374,
-        "dateAdded": "2019-04-12",
-        "imageSize": [
-            4096,
-            2304
-        ],
-        "sunPhases": [
-            "sunrise",
-            "day",
-            "sunset",
-            "night"
-        ]
-    },
     "24hr-Bristlecone": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/bristlecone-pine-windd",
         "themeType": "paid",
@@ -186,42 +168,6 @@
         ],
         "sunPhases": null
     },
-    "Earth_View": {
-        "themeUrl": "https://bitbucket.org/t1m0thyj/wdd-themes/downloads/Earth_View.ddw",
-        "themeType": "photos",
-        "displayName": null,
-        "imageCredits": "Himawari 8",
-        "fileSize": 15086628,
-        "dateAdded": "2019-04-12",
-        "imageSize": [
-            5120,
-            2880
-        ],
-        "sunPhases": [
-            "sunrise",
-            "day",
-            "sunset",
-            "night"
-        ]
-    },
-    "Firewatch": {
-        "themeUrl": "https://bitbucket.org/t1m0thyj/wdd-themes/downloads/Firewatch.ddw",
-        "themeType": "art",
-        "displayName": null,
-        "imageCredits": "Olly Moss",
-        "fileSize": 1030629,
-        "dateAdded": "2019-04-12",
-        "imageSize": [
-            1920,
-            1080
-        ],
-        "sunPhases": [
-            "sunrise",
-            "day",
-            "sunset",
-            "night"
-        ]
-    },
     "24hr-Glacier": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/glacier-windd",
         "themeType": "paid",
@@ -274,70 +220,6 @@
         ],
         "sunPhases": null
     },
-    "iOS_13_Black": {
-        "themeUrl": "https://bitbucket.org/t1m0thyj/wdd-themes/downloads/iOS_13_Black.ddw",
-        "themeType": "art",
-        "displayName": null,
-        "imageCredits": "Apple",
-        "fileSize": 3644174,
-        "dateAdded": "2019-10-12",
-        "imageSize": [
-            3208,
-            1804
-        ],
-        "sunPhases": [
-            "day",
-            "night"
-        ]
-    },
-    "iOS_13_Blue": {
-        "themeUrl": "https://bitbucket.org/t1m0thyj/wdd-themes/downloads/iOS_13_Blue.ddw",
-        "themeType": "art",
-        "displayName": null,
-        "imageCredits": "Apple",
-        "fileSize": 4243463,
-        "dateAdded": "2019-10-12",
-        "imageSize": [
-            3208,
-            1804
-        ],
-        "sunPhases": [
-            "day",
-            "night"
-        ]
-    },
-    "iOS_13_Green": {
-        "themeUrl": "https://bitbucket.org/t1m0thyj/wdd-themes/downloads/iOS_13_Green.ddw",
-        "themeType": "art",
-        "displayName": null,
-        "imageCredits": "Apple",
-        "fileSize": 3926920,
-        "dateAdded": "2019-10-12",
-        "imageSize": [
-            3208,
-            1804
-        ],
-        "sunPhases": [
-            "day",
-            "night"
-        ]
-    },
-    "iOS_13_Red": {
-        "themeUrl": "https://bitbucket.org/t1m0thyj/wdd-themes/downloads/iOS_13_Red.ddw",
-        "themeType": "art",
-        "displayName": null,
-        "imageCredits": "Apple",
-        "fileSize": 4076948,
-        "dateAdded": "2019-10-12",
-        "imageSize": [
-            3208,
-            1804
-        ],
-        "sunPhases": [
-            "day",
-            "night"
-        ]
-    },
     "24hr-JoshuaTree": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/joshua-tree-windd",
         "themeType": "paid",
@@ -350,22 +232,6 @@
             2880
         ],
         "sunPhases": null
-    },
-    "Licancabur": {
-        "themeUrl": "https://bitbucket.org/t1m0thyj/wdd-themes/downloads/Licancabur.ddw",
-        "themeType": "photos",
-        "displayName": null,
-        "imageCredits": "gumoreira",
-        "fileSize": 11893084,
-        "dateAdded": "2019-10-09",
-        "imageSize": [
-            4640,
-            2610
-        ],
-        "sunPhases": [
-            "day",
-            "night"
-        ]
     },
     "24hr-London-Mix": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/london-mix-windd",
@@ -665,23 +531,5 @@
             2880
         ],
         "sunPhases": null
-    },
-    "Your_Name": {
-        "themeUrl": "https://bitbucket.org/t1m0thyj/wdd-themes/downloads/Your_Name.ddw",
-        "themeType": "art",
-        "displayName": null,
-        "imageCredits": "wallpapyrus",
-        "fileSize": 27952845,
-        "dateAdded": "2019-10-09",
-        "imageSize": [
-            3840,
-            2160
-        ],
-        "sunPhases": [
-            "sunrise",
-            "day",
-            "sunset",
-            "night"
-        ]
     }
 }

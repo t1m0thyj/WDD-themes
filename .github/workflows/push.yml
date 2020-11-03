@@ -19,6 +19,7 @@ jobs:
         with:
           repository: t1m0thyj/WDD-website
           path: website
+          token: ${{ secrets.WDD_GITHUB_TOKEN }}
 
       - name: Setup Python
         uses: actions/setup-python@v2
@@ -34,11 +35,7 @@ jobs:
 
       - if: ${{ steps.prepublish.outputs.changed }}
         name: Rebuild Website
-        run: |
-          cd website
-          cp -r ../out/ themes
-          python _src/build.py ../theme-db.json
-          cd ..
+        run: cp -r out/ website/themes && python website/_src/build.py theme-db.json
 
       - if: ${{ steps.prepublish.outputs.changed }}
         name: Commit Changes
