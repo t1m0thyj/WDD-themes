@@ -1,0 +1,46 @@
+name: Publish Theme
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Publish Theme
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Checkout Website
+        uses: actions/checkout@v2
+        with:
+          path: website
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: pip install -r requirements.txt -r website/_src/requirements.txt
+
+      - id: prepublish
+        name: Prepublish Script
+        run: python main.py push
+
+      - if: ${{ steps.prepublish.outputs.changed }}
+        name: Publish Theme
+        run: |
+          cd website
+          cp -r ../out/ themes
+          python _src/build.py ../theme-db.json
+          git add .
+          git commit -m "Rebuild website [ci skip]"
+          git push
+          cd ..
+          git add theme-db.json
+          git commit -m "Update theme database [ci skip]"
+          git push

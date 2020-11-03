@@ -1,0 +1,23 @@
+name: Check Theme
+
+on: pull_request
+
+jobs:
+  build:
+    name: Check Theme
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Check Theme
+        run: python main.py pull_request

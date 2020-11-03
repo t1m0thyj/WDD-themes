@@ -1,0 +1,535 @@
+{
+    "24hr-Earth": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/earth-windd",
+        "themeType": "photos",
+        "displayName": "24 Hour Earth from ISS",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 101117293,
+        "dateAdded": "2019-03-21",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-LosAngeles2019": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/los-angeles-2019-windd",
+        "themeType": "photos",
+        "displayName": "24 Hour Los Angeles 2019",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 113426578,
+        "dateAdded": "2019-09-29",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-MonumentValley": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/monument-valley-windd",
+        "themeType": "photos",
+        "displayName": "24 Hour Monument Valley",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 112567112,
+        "dateAdded": "2019-10-29",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-AlabamaHills": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/alabama-hills-windd",
+        "themeType": "paid",
+        "displayName": "Alabama Hills",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 113737665,
+        "dateAdded": "2019-10-31",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-Bristlecone": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/bristlecone-pine-windd",
+        "themeType": "paid",
+        "displayName": "Bristlecone Pine",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 123128118,
+        "dateAdded": "2019-10-06",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-CatalinaAvalonLeft": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/catalina-avalon-left-windd",
+        "themeType": "paid",
+        "displayName": "Catalina Avalon (Left)",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 120982861,
+        "dateAdded": "2019-09-29",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-CatalinaAvalonRight": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/catalina-avalon-right-windd",
+        "themeType": "paid",
+        "displayName": "Catalina Avalon (Right)",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 115972587,
+        "dateAdded": "2019-09-29",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-CatalinaIsthmusCove": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/catalina-isthmus-cove-windd",
+        "themeType": "paid",
+        "displayName": "Catalina Isthmus Cove",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 99718198,
+        "dateAdded": "2019-09-29",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-CatalinaLittleHarbor": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/catalina-little-harbor-windd",
+        "themeType": "paid",
+        "displayName": "Catalina Little Harbor",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 123721800,
+        "dateAdded": "2019-09-29",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-Catalina-Mix": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/catalina-mix-windd",
+        "themeType": "paid",
+        "displayName": "Catalina Mix",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 127625904,
+        "dateAdded": "2019-11-08",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-CatalinaWhalesTail": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/catalina-whales-tail-windd",
+        "themeType": "paid",
+        "displayName": "Catalina Whale's Tail",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 126225980,
+        "dateAdded": "2019-10-02",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-Colorado-Mix": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/colorado-nature-mix-windd",
+        "themeType": "paid",
+        "displayName": "Colorado Mix",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 146386895,
+        "dateAdded": "2019-09-29",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-Cotswolds": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/cotswolds-windd",
+        "themeType": "paid",
+        "displayName": "Cotswolds",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 111334484,
+        "dateAdded": "2019-10-05",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-Glacier": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/glacier-windd",
+        "themeType": "paid",
+        "displayName": "Glacier National Park",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 108104690,
+        "dateAdded": "2019-09-29",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-GrandTetons": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/grand-tetons-windd",
+        "themeType": "paid",
+        "displayName": "Grand Tetons",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 87955263,
+        "dateAdded": "2019-09-29",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-HighSierra": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/high-sierra-windd",
+        "themeType": "paid",
+        "displayName": "High Sierra",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 124423058,
+        "dateAdded": "2019-10-24",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-Iceland-Mix": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/iceland-mix-windd",
+        "themeType": "paid",
+        "displayName": "Iceland Mix",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 137454278,
+        "dateAdded": "2019-09-29",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-JoshuaTree": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/joshua-tree-windd",
+        "themeType": "paid",
+        "displayName": "Joshua Tree",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 119064906,
+        "dateAdded": "2019-10-06",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-London-Mix": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/london-mix-windd",
+        "themeType": "paid",
+        "displayName": "London Mix",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 137370603,
+        "dateAdded": "2019-10-27",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-LosAngeles": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/los-angeles-windd",
+        "themeType": "paid",
+        "displayName": "Los Angeles",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 144949066,
+        "dateAdded": "2019-03-21",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-Malibu": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/malibu-windd",
+        "themeType": "paid",
+        "displayName": "Malibu",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 111320138,
+        "dateAdded": "2019-09-29",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-MojaveDunes": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/mojave-dunes-windd",
+        "themeType": "paid",
+        "displayName": "Mojave Dunes",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 87264242,
+        "dateAdded": "2019-10-24",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-MojaveMount": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/mojave-mount-windd",
+        "themeType": "paid",
+        "displayName": "Mojave Mount",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 108034802,
+        "dateAdded": "2019-10-02",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-NewYork": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/new-york-windd",
+        "themeType": "paid",
+        "displayName": "New York City",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 123285910,
+        "dateAdded": "2019-03-21",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-NewYorkWinter": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/nyc-winter-windd",
+        "themeType": "paid",
+        "displayName": "New York City Winter",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 126139881,
+        "dateAdded": "2019-10-06",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-NewZealand-Mix": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/new-zealand-nature-mix-windd",
+        "themeType": "paid",
+        "displayName": "New Zealand Mix",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 125880112,
+        "dateAdded": "2019-09-29",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-Oxenhope": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/oxenhope-windd",
+        "themeType": "paid",
+        "displayName": "Oxenhope",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 118240149,
+        "dateAdded": "2019-10-02",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-Paris-1": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/paris-1-windd",
+        "themeType": "paid",
+        "displayName": "Paris 1",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 145658751,
+        "dateAdded": "2019-10-22",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-Paris-2": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/paris-2-windd",
+        "themeType": "paid",
+        "displayName": "Paris 2",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 162894425,
+        "dateAdded": "2019-10-22",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-Paris-Mix": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/paris-mix-windd",
+        "themeType": "paid",
+        "displayName": "Paris Mix",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 150227763,
+        "dateAdded": "2019-09-29",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-Polson": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/polson-windd",
+        "themeType": "paid",
+        "displayName": "Polson",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 87822990,
+        "dateAdded": "2019-09-29",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-PyramidLake-Mix": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/pyramid-lake-mix-windd",
+        "themeType": "paid",
+        "displayName": "Pyramid Lake Mix",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 118354990,
+        "dateAdded": "2019-09-29",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-SanFrancisco": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/sf-south-windd",
+        "themeType": "paid",
+        "displayName": "San Francisco",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 136045895,
+        "dateAdded": "2019-03-21",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-SanFranciscoEast": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/sf-east-windd",
+        "themeType": "paid",
+        "displayName": "San Francisco East",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 127948949,
+        "dateAdded": "2019-03-22",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-Seattle-Mix": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/seattle-mix-windd",
+        "themeType": "paid",
+        "displayName": "Seattle Mix",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 125876552,
+        "dateAdded": "2019-09-29",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-Tahoe-Mix": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/lake-tahoe-mix-windd",
+        "themeType": "paid",
+        "displayName": "Tahoe Mix",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 124926404,
+        "dateAdded": "2019-11-08",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-Tokyo-Mix": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/tokyo-mix-windd",
+        "themeType": "paid",
+        "displayName": "Tokyo Mix",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 162704624,
+        "dateAdded": "2019-09-29",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-VeryLargeArray": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/vla-windd",
+        "themeType": "paid",
+        "displayName": "Very Large Array (VLA)",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 82296326,
+        "dateAdded": "2019-10-24",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-YosemiteLukens": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/yosemite-lukens-windd",
+        "themeType": "paid",
+        "displayName": "Yosemite Lukens Lake",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 157126997,
+        "dateAdded": "2019-10-29",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-Yosemite-Mix": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/yosemite-mix-windd",
+        "themeType": "paid",
+        "displayName": "Yosemite Mix",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 150052107,
+        "dateAdded": "2019-09-29",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-YosemiteTioga": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/yosemite-tioga-windd",
+        "themeType": "paid",
+        "displayName": "Yosemite Tioga Road",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileSize": 134439014,
+        "dateAdded": "2019-10-06",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    }
+}
