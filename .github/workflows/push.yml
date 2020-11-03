@@ -33,15 +33,23 @@ jobs:
         run: python main.py push
 
       - if: ${{ steps.prepublish.outputs.changed }}
-        name: Publish Theme
+        name: Rebuild Website
         run: |
           cd website
           cp -r ../out/ themes
           python _src/build.py ../theme-db.json
-          git add .
-          git commit -m "Rebuild website [ci skip]"
-          git push
           cd ..
-          git add theme-db.json
-          git commit -m "Update theme database [ci skip]"
-          git push
+
+      - if: ${{ steps.prepublish.outputs.changed }}
+        name: Commit Changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update theme database
+          file_pattern: theme-db.json
+
+      - if: ${{ steps.prepublish.outputs.changed }}
+        name: Publish Theme
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Publish new theme
+          repository: website
