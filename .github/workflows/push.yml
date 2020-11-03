@@ -35,7 +35,7 @@ jobs:
 
       - if: ${{ steps.prepublish.outputs.changed }}
         name: Rebuild Website
-        run: cp -r out/ website/themes && python website/_src/build.py theme-db.json
+        run: cp -R out/. website/themes && python website/_src/build.py theme-db.json
 
       - if: ${{ steps.prepublish.outputs.changed }}
         name: Commit Changes
