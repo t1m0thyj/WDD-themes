@@ -222,6 +222,24 @@
             "night"
         ]
     },
+    "Firewatch_Tower": {
+        "themeUrl": "https://bitbucket.org/t1m0thyj/wdd-themes/downloads/Firewatch_Tower.ddw",
+        "themeType": "art",
+        "displayName": null,
+        "imageCredits": "Olly Moss",
+        "fileSize": 8776386,
+        "dateAdded": "2020-01-12",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-Glacier": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/glacier-windd",
         "themeType": "paid",
