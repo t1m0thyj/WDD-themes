@@ -432,6 +432,24 @@
         ],
         "sunPhases": null
     },
+    "Mojave_XP": {
+        "themeUrl": "https://bitbucket.org/t1m0thyj/wdd-themes/downloads/Mojave_XP.ddw",
+        "themeType": "photos",
+        "displayName": null,
+        "imageCredits": "legrisch",
+        "fileSize": 23705621,
+        "dateAdded": "2020-01-12",
+        "imageSize": [
+            4510,
+            2536
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-NewYork": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/new-york-windd",
         "themeType": "paid",
