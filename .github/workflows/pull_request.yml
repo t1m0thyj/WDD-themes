@@ -1,6 +1,9 @@
 name: Check Theme
 
-on: pull_request
+on:
+  pull_request:
+  repository_dispatch:
+    types: [check-theme-command]
 
 jobs:
   build:
