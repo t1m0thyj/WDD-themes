@@ -54,8 +54,12 @@ After adding these lines, label your changes with "Add &lt;themeName&gt; theme" 
 
 Confirm your changes and click through the green buttons labeled "Create pull request".
 
-After your PR has been created, wait for the Check Theme task to run. It will scan your .ddw file and check that it meets all the requirements listed above. If any issues are reported, fix them and rerun the Check Theme task by posting a comment with the line `/check-theme`:
+After your PR has been created, wait for the Check Theme task to run. It will scan your .ddw file to check that it meets all the requirements listed above. If the scan fails, click the "Details" link to find out why:
 
-![Comment](images/step_3c.png)
+![All checks have failed](images/step_3c.png)
+
+If any issues are reported, fix them and rerun the Check Theme task by posting a comment with the line `/check-theme`:
+
+![Check Theme comment](images/step_3d.png)
 
 Once the Check Theme task has succeeded, your theme is ready to be published. A WDD theme reviewer will merge your pull request to add it to the [WDD Themes site](https://windd.info/themes/).
