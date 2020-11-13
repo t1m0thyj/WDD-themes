@@ -269,9 +269,9 @@ def make_thumbnails(theme_config, ddw_path=None):
             img2 = Image.open(BytesIO(zipobj.read(dark_image_filename)))
 
     w, h = img1.size
-    img1.thumbnail((w * 216 / h, 216))
+    img1.thumbnail((384, 216))
     img1.save(f"out/thumbnails/{theme_id}_day.png")
-    img2.thumbnail((w * 216 / h, 216))
+    img2.thumbnail((384, 216))
     img2.save(f"out/thumbnails/{theme_id}_night.png")
 
     return (w, h)
