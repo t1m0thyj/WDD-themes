@@ -21,6 +21,7 @@ Make sure your theme meets the following requirements:
 - Image ratio must be landscape or square (cannot be portrait)
 - Image shown at noon should be brightest image in the set
 - Image shown at midnight should be darkest image in the set
+- Image credits must include name of the original artist/photographer
 
 ### Publish your theme to direct link
 

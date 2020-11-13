@@ -94,7 +94,7 @@ def download_theme(theme_url):
                 params = {"filename": os.path.basename(response.url)}
             filename = "temp/" + params["filename"]
 
-            date_modified = -1
+            date_modified = None
             if "Last-Modified" in response.headers:
                 date_modified = datetime.strptime(response.headers["Last-Modified"], "%a, %d %b %Y %H:%M:%S %Z")
 
@@ -102,8 +102,8 @@ def download_theme(theme_url):
                 add_error("Theme URL is not a direct download link (must be a raw .ddw file)", True)
 
             urllib.request.urlretrieve(theme_url, filename)
-            if date_modified == -1:
-                date_modified = os.path.getmtime(filename)
+            if not date_modified:
+                date_modified = datetime.utcfromtimestamp(os.path.getmtime(filename))
 
             return filename, date_modified
     except:
@@ -124,7 +124,9 @@ def load_theme_config():
 
     try:
         with open(json_path, 'r') as fileobj:
-            return json.load(fileobj)
+            theme_config = json.load(fileobj)
+        print(theme_config)
+        return theme_config
     except Exception as e:
         add_error(f"Failed to load theme.json file: {e}", True)
 
