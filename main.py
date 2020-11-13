@@ -87,14 +87,14 @@ def setup_env(theme_url):
 def download_theme(theme_url):
     try:
         with urllib.request.urlopen(theme_url) as response:
-            if response.headers.get("Content-Disposition"):
+            if "Content-Disposition" in response.headers:
                 _, params = cgi.parse_header(response.headers["Content-Disposition"])
             else:
                 params = {"filename": os.path.basename(response.url)}
             filename = "temp/" + params["filename"]
 
             date_modified = -1
-            if response.headers.get("Last-Modified"):
+            if "Last-Modified" in response.headers:
                 date_modified = datetime.strptime(response.headers["Last-Modified"], "%a, %d %b %Y %H:%M:%S %Z")
 
             if os.path.splitext(filename)[1] != ".ddw":
