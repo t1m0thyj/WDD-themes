@@ -87,14 +87,23 @@ def setup_env(theme_url):
 def download_theme(theme_url):
     try:
         with urllib.request.urlopen(theme_url) as response:
-            _, params = cgi.parse_header(response.headers["Content-Disposition"])
+            if response.headers.get("Content-Disposition"):
+                _, params = cgi.parse_header(response.headers["Content-Disposition"])
+            else:
+                params = {"filename": os.path.basename(response.url)}
             filename = "temp/" + params["filename"]
-            date_modified = datetime.strptime(response.headers["Last-Modified"], "%a, %d %b %Y %H:%M:%S %Z")
+
+            date_modified = -1
+            if response.headers.get("Last-Modified"):
+                date_modified = datetime.strptime(response.headers["Last-Modified"], "%a, %d %b %Y %H:%M:%S %Z")
 
             if os.path.splitext(filename)[1] != ".ddw":
                 add_error("Theme URL is not a direct download link (must be a raw .ddw file)", True)
 
             urllib.request.urlretrieve(theme_url, filename)
+            if date_modified == -1:
+                date_modified = os.path.getmtime(filename)
+
             return filename, date_modified
     except:
         add_error(f"Failed to download theme from {theme_url}", True)
