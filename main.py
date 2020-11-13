@@ -5,6 +5,7 @@ import json
 import os
 import re
 import shutil
+import subprocess
 import sys
 import urllib.request
 import zipfile
@@ -111,18 +112,18 @@ def download_theme(theme_url):
 
 def extract_theme(theme_path):
     try:
-        with zipfile.ZipFile(theme_path, 'r') as fileobj:
-            fileobj.extractall("temp/unzipped")
+        subprocess.run(["unzip", theme_path, "-d", "temp/unzipped"])
     except:
         add_error(f"Failed to extract theme from {theme_path}", True)
 
 
 def load_theme_config():
-    if not os.path.isfile("temp/unzipped/theme.json"):
+    json_path = next(glob.iglob("temp/unzipped/*.json"))
+    if not os.path.isfile(json_path):
         add_error("Theme package does not contain theme.json file", True)
 
     try:
-        with open("temp/unzipped/theme.json", 'r') as fileobj:
+        with open(json_path, 'r') as fileobj:
             return json.load(fileobj)
     except Exception as e:
         add_error(f"Failed to load theme.json file: {e}", True)
@@ -148,9 +149,13 @@ def validate_theme_config(theme_config):
 
 def validate_theme_files(theme_config):
     extra_paths = []
+    json_found = False
     for filename in os.listdir("temp/unzipped"):
-        if filename != "theme.json" and not fnmatch.fnmatch(filename, theme_config["imageFilename"]):
+        if (not fnmatch.fnmatch(filename, theme_config["imageFilename"]) and
+                not (filename.endswith(".json") and not json_found)):
             extra_paths.append(filename)
+        if filename.endswith(".json"):
+            json_found = True
     if extra_paths:
         add_error(f"Unused files in theme package: " + ", ".join(extra_paths))
 
