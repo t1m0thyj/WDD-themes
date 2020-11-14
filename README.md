@@ -18,7 +18,7 @@ Make sure your theme meets the following requirements:
 - Theme package cannot contain extra files in addition to images and theme.json
 - Theme package must include all images referenced in theme.json
 - Image size must be at least HD resolution (1920x1080)
-- Image ratio must be landscape or square (cannot be portrait)
+- Image ratio must be landscape or square (16:9 is recommended)
 - Image shown at noon should be brightest image in the set
 - Image shown at midnight should be darkest image in the set
 - Image credits must include name of the original artist/photographer

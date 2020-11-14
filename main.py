@@ -88,12 +88,7 @@ def setup_env(theme_url):
 def download_theme(theme_url):
     try:
         with urllib.request.urlopen(theme_url) as response:
-            if "Content-Disposition" in response.headers:
-                _, params = cgi.parse_header(response.headers["Content-Disposition"])
-            else:
-                params = {"filename": os.path.basename(response.url)}
-            filename = "temp/" + params["filename"]
-
+            filename = "temp/" + (response.headers.get_filename() or os.path.basename(response.url))
             date_modified = None
             if "Last-Modified" in response.headers:
                 date_modified = datetime.strptime(response.headers["Last-Modified"], "%a, %d %b %Y %H:%M:%S %Z")
@@ -106,20 +101,20 @@ def download_theme(theme_url):
                 date_modified = datetime.utcfromtimestamp(os.path.getmtime(filename))
 
             return filename, date_modified
-    except:
-        add_error(f"Failed to download theme from {theme_url}", True)
+    except Exception as e:
+        add_error(f"Failed to download theme from {theme_url}: {e}", True)
 
 
 def extract_theme(theme_path):
     try:
         subprocess.run(["unzip", theme_path, "-d", "temp/unzipped"])
-    except:
-        add_error(f"Failed to extract theme from {theme_path}", True)
+    except Exception as e:
+        add_error(f"Failed to extract theme from {theme_path}: {e}", True)
 
 
 def load_theme_config():
-    json_path = next(glob.iglob("temp/unzipped/*.json"))
-    if not os.path.isfile(json_path):
+    json_path = next(glob.iglob("temp/unzipped/*.json"), None)
+    if not json_path:
         add_error("Theme package does not contain theme.json file", True)
 
     try:
@@ -128,7 +123,7 @@ def load_theme_config():
         print(theme_config)
         return theme_config
     except Exception as e:
-        add_error(f"Failed to load theme.json file: {e}", True)
+        add_error(f"Failed to load JSON file {os.path.basename(json_path)}: {e}", True)
 
 
 def on_pull_request(theme_id, theme_url, theme_type):
@@ -228,6 +223,19 @@ def on_push_to_master(theme_id, theme_url, theme_type):
     save_theme_db(theme_data)
 
 
+def resize_16x9(img, width):
+    w, h = img.size
+    if ((w / h) > (16 / 9)):  # Too wide
+        w2 = int(h * 16 / 9)
+        x = (w - w2) / 2
+        img = img.crop((x, 0, x + w2, h))
+    elif ((w / h) < (16 / 9)):  # Too high
+        h2 = int(w * 9 / 16)
+        y = (h - h2) / 2
+        img = img.crop((0, y, w, y + h2))
+    return img.resize((width, int(width * 9 / 16)))
+
+
 def make_previews(theme_config):
     os.makedirs("out/previews", exist_ok=True)
 
@@ -246,7 +254,7 @@ def make_previews(theme_config):
 
     for phase, filename in image_filenames.items():
         img = Image.open(f"temp/unzipped/{filename}")
-        img.thumbnail((1920, 1080))
+        img = resize_16x9(img, 1920)
         img.save(f"out/previews/{theme_id}_{phase}.jpg", quality=75)
 
     return list(image_filenames.keys())
@@ -269,9 +277,9 @@ def make_thumbnails(theme_config, ddw_path=None):
             img2 = Image.open(BytesIO(zipobj.read(dark_image_filename)))
 
     w, h = img1.size
-    img1.thumbnail((384, 216))
+    img1 = resize_16x9(img1, 384)
     img1.save(f"out/thumbnails/{theme_id}_day.png")
-    img2.thumbnail((384, 216))
+    img2 = resize_16x9(img2, 384)
     img2.save(f"out/thumbnails/{theme_id}_night.png")
 
     return (w, h)
