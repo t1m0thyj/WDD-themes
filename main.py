@@ -1,6 +1,6 @@
-import cgi
 import fnmatch
 import glob
+import hashlib
 import json
 import os
 import re
@@ -209,11 +209,15 @@ def on_push_to_master(theme_id, theme_url, theme_type):
     theme_config = load_theme_config()
     theme_data = load_theme_db()
 
+    with open(theme_path, 'rb') as fileobj:
+        ddw_data = fileobj.read()
+
     theme_data[theme_id] = {
         "themeUrl": theme_url,
         "themeType": theme_type,
         "displayName": theme_config.get("displayName"),
         "imageCredits": theme_config.get("imageCredits"),
+        "fileHash": hashlib.md5(ddw_data).hexdigest(),
         "fileSize": os.path.getsize(theme_path),
         "dateAdded": str(date_modified.date()),
         "imageSize": make_thumbnails(theme_config),
@@ -306,18 +310,24 @@ def process_private_themes():
     for ddw_path in private_themes:
         print(f"Processing {os.path.basename(ddw_path)}...")
         theme_id = os.path.splitext(os.path.basename(ddw_path))[0]
+
         with zipfile.ZipFile(ddw_path, 'r') as zipobj:
             with zipobj.open(f"{theme_id}.json", 'r') as fileobj:
                 theme_config = json.load(fileobj)
+
         display_name = theme_config["displayName"]
         if "free" in ddw_path:
             display_name = f"24 Hour {display_name}"
+
+        with open(ddw_path, 'rb') as fileobj:
+            ddw_data = fileobj.read()
 
         theme_data[theme_id] = {
             "themeUrl": theme_list[theme_id][0],
             "themeType": "photos" if "free" in ddw_path else "paid",
             "displayName": display_name,
             "imageCredits": theme_config["imageCredits"],
+            "fileHash": hashlib.md5(ddw_data).hexdigest(),
             "fileSize": os.path.getsize(ddw_path),
             "dateAdded": str(datetime.utcfromtimestamp(os.path.getmtime(ddw_path)).date()),
             "imageSize": make_thumbnails(theme_config, ddw_path),
