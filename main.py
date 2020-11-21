@@ -313,7 +313,7 @@ def make_thumbnails(theme_config, ddw_path=None):
 def save_theme_db(theme_data):
     get_theme_key = lambda ti, td: td.get("displayName") or ti.replace(" ", "_")
     theme_db = dict(sorted(theme_data.items(), key=lambda theme: get_theme_key(*theme).lower()))
-    with open("theme-db.json", 'w') as fileobj:
+    with open("theme-db.json", 'w', newline='\n') as fileobj:
         json.dump(theme_db, fileobj, indent=4)
 
 
