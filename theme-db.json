@@ -870,6 +870,23 @@
         ],
         "sunPhases": null
     },
+    "Windows_Insider": {
+        "themeUrl": "https://onedrive.live.com/download?cid=4C269F97D735DBB6&resid=4C269F97D735DBB6%21339317&authkey=AFQ0x1oUYiNx3Lc",
+        "themeType": "art",
+        "displayName": "Windows Insider",
+        "imageCredits": "Microsoft",
+        "fileHash": "fdb6e7de14d697342577bd6d0b4cb133",
+        "fileSize": 2134348,
+        "dateAdded": "2020-12-03",
+        "imageSize": [
+            4092,
+            2298
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "24hr-YosemiteLukens": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/yosemite-lukens-windd",
         "themeType": "paid",
