@@ -23,7 +23,7 @@ Make sure your theme meets the following requirements:
 - Image shown at midnight should be darkest image in the set
 - Image credits must include name of the original artist/photographer
 
-### Publish your theme to direct link
+### Publish your theme to MediaFire
 
 Upload your DDW file for others to download and use in WDD. Your theme must be uploaded to a direct link, meaning you must provide a URL which downloads the file directly rather than going to a web page with a download button.
 
@@ -41,7 +41,7 @@ Open a pull request (PR) in this repository to add your theme to the list on the
 
 Find one of these files on GitHub and click the pencil icon to fork this repository and edit the file:
 
-![Edit the file in your fork of this project](images/step_3a.png)
+![Edit the file in your fork of this project](images/github_edit_file.png)
 
 You only need to add two lines to the YAML file for your theme:
 ```yaml
@@ -51,16 +51,16 @@ You only need to add two lines to the YAML file for your theme:
 
 After adding these lines, label your changes with "Add &lt;themeName&gt; theme" and click "Propose changes":
 
-![Propose changes](images/step_3b.png)
+![Propose changes](images/github_propose_changes.png)
 
 Confirm your changes and click through the green buttons labeled "Create pull request".
 
 After your PR has been created, wait for the Check Theme task to run. It will scan your .ddw file to check that it meets all the requirements listed above. If the scan fails, click the "Details" link to find out why:
 
-![All checks have failed](images/step_3c.png)
+![All checks have failed](images/github_fail_details.png)
 
 If any issues are reported, fix them and rerun the Check Theme task by posting a comment with the line `/check-theme`:
 
-![Check Theme comment](images/step_3d.png)
+![Check Theme comment](images/github_check_theme.png)
 
 Once the Check Theme task has succeeded, your theme is ready to be published. A WDD theme reviewer will merge your pull request to add it to the [WDD Themes site](https://windd.info/themes/).

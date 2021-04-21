@@ -3,7 +3,6 @@ import glob
 import hashlib
 import json
 import os
-from os import error
 import re
 import shutil
 import subprocess
@@ -63,26 +62,6 @@ def print_errors_and_exit():
     sys.exit(len(error_list))
 
 
-def run_link_check():
-    for theme_id, theme_data in load_theme_db().items():
-        if theme_id.startswith("24hr"):
-            continue
-        print(f"Checking {theme_id}...")
-
-        with urllib.request.urlopen(theme_data["themeUrl"]) as response:
-            status = response.getcode()
-            if status != 200:
-                error_list.append(f"[{theme_id}] URL returned HTTP code {status}")
-                continue
-
-        filename = urllib.request.urlretrieve(theme_data["themeUrl"])[0]
-        with open(filename, 'rb') as fileobj:
-            ddw_data = fileobj.read()
-        md5_hash = hashlib.md5(ddw_data).hexdigest()
-        if md5_hash != theme_data["fileHash"]:
-            error_list.append(f"[{theme_id}] MD5 hash mismatch: {md5_hash}")
-
-
 def add_error(message, is_fatal=False):
     if theme_id:
         message = f"[{theme_id}] {message}"
@@ -108,20 +87,14 @@ def setup_env(theme_url):
 
 def download_theme(theme_url):
     try:
-        with urllib.request.urlopen(theme_url) as response:
-            filename = "temp/" + (response.headers.get_filename() or os.path.basename(response.url))
-            date_modified = None
-            if "Last-Modified" in response.headers:
-                date_modified = datetime.strptime(response.headers["Last-Modified"], "%a, %d %b %Y %H:%M:%S %Z")
+        subprocess.run("bash ../mediafire-direct-dl.sh " + theme_url, cwd="temp")
+        mediafire_id, filename = re.search(r"mediafire\.com/file/(.+?)/(.+?)/file", theme_url).groups()
 
-            if os.path.splitext(filename)[1] != ".ddw":
-                add_error("Theme URL is not a direct download link (must be a raw .ddw file)", True)
+        if os.path.splitext(filename)[1] != ".ddw":
+            add_error("Theme URL is not a MediaFire download (must be a .ddw file)", True)
 
-            urllib.request.urlretrieve(theme_url, filename)
-            if not date_modified:
-                date_modified = datetime.utcfromtimestamp(os.path.getmtime(filename))
-
-            return filename, date_modified
+        date_modified = datetime.utcfromtimestamp(os.path.getmtime(filename))
+        return "temp/" + filename, date_modified
     except Exception as e:
         add_error(f"Failed to download theme from {theme_url}: {e}", True)
 
@@ -360,9 +333,7 @@ def process_private_themes():
 
 if __name__ == "__main__":
     action = sys.argv[1] if len(sys.argv) > 1 else None
-    if action == "link_check":
-        run_link_check()
-    elif action == "pull_request":
+    if action == "pull_request":
         for theme in find_new_themes():
             theme_id = theme[0]
             try:
