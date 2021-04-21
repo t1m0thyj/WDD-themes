@@ -22,7 +22,7 @@ jobs:
           token: ${{ secrets.WDD_GITHUB_TOKEN }}
 
       - name: Download MediaFire script
-        run: curl -LOJ https://raw.githubusercontent.com/TheAlienDrew/mediafire-direct/main/0-bash-scripts/mediafire-direct-dl.sh
+        run: curl -LOJ https://raw.githubusercontent.com/TheAlienDrew/mediafire-direct/main/0-bash-scripts/mediafire-direct-dl.sh && chmod +x mediafire-direct-dl.sh
 
       - name: Setup Python
         uses: actions/setup-python@v2
