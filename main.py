@@ -7,7 +7,6 @@ import re
 import shutil
 import subprocess
 import sys
-import urllib.request
 import zipfile
 from datetime import datetime
 from io import BytesIO
@@ -232,6 +231,8 @@ def resize_16x9(img, width):
         h2 = int(w * 9 / 16)
         y = (h - h2) / 2
         img = img.crop((0, y, w, y + h2))
+    if img.mode != "RGB":
+        img = img.convert("RGB")
     return img.resize((width, int(width * 9 / 16)))
 
 
