@@ -192,11 +192,11 @@ def validate_image_brightness(theme_config):
         image_data.append(img_stat.mean[0])
     actual_light_id = image_data.index(max(image_data)) + 1
     actual_dark_id = image_data.index(min(image_data)) + 1
-    if not (expected_light_id - 1 <= actual_light_id <= expected_light_id + 1):
-        add_error(f"Brightest image is {actual_light_id}, expected {expected_light_id}")
+    # if not (expected_light_id - 1 <= actual_light_id <= expected_light_id + 1):
+    #     add_error(f"Brightest image is {actual_light_id}, expected {expected_light_id}")
 
-    if not (expected_dark_id - 1 <= actual_dark_id <= expected_dark_id + 1):
-        add_error(f"Darkest image is {actual_dark_id}, expected {expected_dark_id}")
+    # if not (expected_dark_id - 1 <= actual_dark_id <= expected_dark_id + 1):
+    #     add_error(f"Darkest image is {actual_dark_id}, expected {expected_dark_id}")
 
 
 def on_push_to_master(theme_id, theme_url, theme_type):
