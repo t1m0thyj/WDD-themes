@@ -93,8 +93,9 @@ def download_theme(theme_url):
         if os.path.splitext(filename)[1] != ".ddw":
             add_error("Theme URL is not a MediaFire download (must be a .ddw file)", True)
 
+        filename = "temp/" + filename
         date_modified = datetime.utcfromtimestamp(os.path.getmtime(filename))
-        return "temp/" + filename, date_modified
+        return filename, date_modified
     except Exception as e:
         add_error(f"Failed to download theme from {theme_url}: {e}", True)
 
