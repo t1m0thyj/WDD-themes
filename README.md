@@ -25,12 +25,11 @@ Make sure your theme meets the following requirements:
 
 ### Publish your theme to MediaFire
 
-Upload your DDW file for others to download and use in WDD. Your theme must be uploaded to a direct link, meaning you must provide a URL which downloads the file directly rather than going to a web page with a download button.
+Upload your DDW file online for others to download and use in WDD. If you want your theme featured on the [WDD Themes site](https://windd.info/themes/), you must upload your theme to MediaFire.
 
-You can host your theme on OneDrive or Google Drive and obtain a direct link by following instructions in the links below:
+Sign up for a MediaFire account if you don't have one yet. Then log in to upload a file and copy the share link:
 
-- OneDrive (recommended because it has fewer restrictions) - https://bydik.com/onedrive-direct-link/
-- Google Drive (file size limit of 100MB and daily download quota) - https://bydik.com/google-drive-direct-link/
+![Upload and copy share link](images/mediafire_upload.png)
 
 ### Create pull request for your theme
 
