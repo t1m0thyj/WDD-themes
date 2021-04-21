@@ -87,7 +87,7 @@ def setup_env(theme_url):
 
 def download_theme(theme_url):
     try:
-        subprocess.run("bash ../mediafire-direct-dl.sh " + theme_url, cwd="temp")
+        subprocess.run("bash ../mediafire-direct-dl.sh " + theme_url, cwd="temp", shell=True)
         mediafire_id, filename = re.search(r"mediafire\.com/file/(.+?)/(.+?)/file", theme_url).groups()
 
         if os.path.splitext(filename)[1] != ".ddw":

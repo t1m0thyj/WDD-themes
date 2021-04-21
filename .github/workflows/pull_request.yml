@@ -26,4 +26,4 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Check Theme
-        run: ls -la && python main.py pull_request
+        run: python main.py pull_request
