@@ -933,6 +933,25 @@
             "night"
         ]
     },
+    "The_Great_Plateau": {
+        "themeUrl": "https://www.mediafire.com/file/clpxnroc18bw2vp/The_Great_Plateau.ddw/file",
+        "themeType": "art",
+        "displayName": "The Great Plateau",
+        "imageCredits": "Nintendo",
+        "fileHash": "f896dd2d35ab46c57afabafa06b5f33e",
+        "fileSize": 11266541,
+        "dateAdded": "2021-04-23",
+        "imageSize": [
+            2560,
+            1440
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-Tokyo-Mix": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/tokyo-mix-windd",
         "themeType": "paid",
