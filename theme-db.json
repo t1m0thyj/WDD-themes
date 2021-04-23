@@ -1074,5 +1074,24 @@
             "sunset",
             "night"
         ]
+    },
+    "Zelda_Wind_Waker_Outset_Island": {
+        "themeUrl": "https://www.mediafire.com/file/q18juc7ux86jflt/Zelda_Wind_Waker_Outset_Island.ddw/file",
+        "themeType": "art",
+        "displayName": "Zelda: Wind Waker - Outset Island",
+        "imageCredits": "Art/.heic by Matt Vince - 'www.mattvince.com/product/zelda-windwaker-dynamic-wallpaper-mac-osx', .ddw by github:@switch64",
+        "fileHash": "c2dbb0095adf268695d3fb626bfe6e04",
+        "fileSize": 24794377,
+        "dateAdded": "2021-04-23",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
     }
 }
