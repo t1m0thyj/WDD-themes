@@ -933,6 +933,25 @@
             "night"
         ]
     },
+    "The_Great_Plateau": {
+        "themeUrl": "https://www.mediafire.com/file/clpxnroc18bw2vp/The_Great_Plateau.ddw/file",
+        "themeType": "art",
+        "displayName": "The Great Plateau",
+        "imageCredits": "Nintendo",
+        "fileHash": "f896dd2d35ab46c57afabafa06b5f33e",
+        "fileSize": 11266541,
+        "dateAdded": "2021-04-23",
+        "imageSize": [
+            2560,
+            1440
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-Tokyo-Mix": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/tokyo-mix-windd",
         "themeType": "paid",
@@ -1064,6 +1083,25 @@
         "fileHash": "dc1fe8a778b3ed781334d330798ba629",
         "fileSize": 27952845,
         "dateAdded": "2021-04-21",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Zelda_Wind_Waker_Outset_Island": {
+        "themeUrl": "https://www.mediafire.com/file/q18juc7ux86jflt/Zelda_Wind_Waker_Outset_Island.ddw/file",
+        "themeType": "art",
+        "displayName": "Zelda: Wind Waker - Outset Island",
+        "imageCredits": "Art/.heic by Matt Vince - 'www.mattvince.com/product/zelda-windwaker-dynamic-wallpaper-mac-osx', .ddw by github:@switch64",
+        "fileHash": "c2dbb0095adf268695d3fb626bfe6e04",
+        "fileSize": 24794377,
+        "dateAdded": "2021-04-23",
         "imageSize": [
             3840,
             2160
