@@ -353,6 +353,25 @@
         ],
         "sunPhases": null
     },
+    "Dueling_Peaks_Stable": {
+        "themeUrl": "https://www.mediafire.com/file/uchg7s8m93kbnfg/Dueling_Peaks_Stable.ddw/file",
+        "themeType": "art",
+        "displayName": "Dueling Peaks Stable",
+        "imageCredits": "Nintendo",
+        "fileHash": "b7ef942a4a64d383baba20495f84c876",
+        "fileSize": 14201937,
+        "dateAdded": "2021-04-23",
+        "imageSize": [
+            2560,
+            1440
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Earth_View": {
         "themeUrl": "https://www.mediafire.com/file/lvg94m0bg6atk2y/Earth_View.ddw/file",
         "themeType": "photos",
