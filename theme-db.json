@@ -41,6 +41,23 @@
         ],
         "sunPhases": null
     },
+    "Abstract_Cloth": {
+        "themeUrl": "https://www.mediafire.com/file/1lsf5skwys5sns1/Abstract_Cloth.ddw/file",
+        "themeType": "art",
+        "displayName": null,
+        "imageCredits": "orcH",
+        "fileHash": "fbab9db96ae85971cd3c12e8f2c6078a",
+        "fileSize": 4000227,
+        "dateAdded": "2021-04-21",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "24hr-AlabamaHills": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/alabama-hills-windd",
         "themeType": "paid",
@@ -84,16 +101,35 @@
         "sunPhases": null
     },
     "BitDay": {
-        "themeUrl": "https://bitbucket.org/t1m0thyj/wdd-themes/downloads/BitDay.ddw",
+        "themeUrl": "https://www.mediafire.com/file/0bqp279mw3cb3x3/BitDay.ddw/file",
         "themeType": "art",
         "displayName": null,
         "imageCredits": "BloodyMarvellous",
         "fileHash": "6c8615a007abfcc903bddd5cbcb9c0f4",
         "fileSize": 5714374,
-        "dateAdded": "2019-04-12",
+        "dateAdded": "2021-04-21",
         "imageSize": [
             4096,
             2304
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Bliss": {
+        "themeUrl": "https://www.mediafire.com/file/2w0smljabpkrjyt/Bliss.ddw/file",
+        "themeType": "art",
+        "displayName": null,
+        "imageCredits": "andreitrinidad",
+        "fileHash": "eab26b2342a4ea54714946cd5485fcfc",
+        "fileSize": 13820277,
+        "dateAdded": "2021-04-21",
+        "imageSize": [
+            5120,
+            2880
         ],
         "sunPhases": [
             "sunrise",
@@ -159,13 +195,13 @@
         "sunPhases": null
     },
     "Castle": {
-        "themeUrl": "https://drive.google.com/uc?export=download&id=1yIfNci_8izQ6qeQvmAMKtaZcKbddht1i",
+        "themeUrl": "https://www.mediafire.com/file/vem6eztb8icnz5x/Castle.ddw/file",
         "themeType": "photos",
         "displayName": null,
         "imageCredits": "Allard Schager/Akhilesh Balaji",
         "fileHash": "78ba5c90ea203b25927f4fa114883d25",
         "fileSize": 25676908,
-        "dateAdded": "2020-11-13",
+        "dateAdded": "2021-04-21",
         "imageSize": [
             4096,
             2160
@@ -318,13 +354,13 @@
         "sunPhases": null
     },
     "Earth_View": {
-        "themeUrl": "https://bitbucket.org/t1m0thyj/wdd-themes/downloads/Earth_View.ddw",
+        "themeUrl": "https://www.mediafire.com/file/lvg94m0bg6atk2y/Earth_View.ddw/file",
         "themeType": "photos",
         "displayName": null,
         "imageCredits": "Himawari 8",
         "fileHash": "88823d33a81d33cf9747816cce4e05c6",
         "fileSize": 15086628,
-        "dateAdded": "2019-04-12",
+        "dateAdded": "2021-04-21",
         "imageSize": [
             5120,
             2880
@@ -337,13 +373,13 @@
         ]
     },
     "Firewatch": {
-        "themeUrl": "https://bitbucket.org/t1m0thyj/wdd-themes/downloads/Firewatch.ddw",
+        "themeUrl": "https://www.mediafire.com/file/plhuk4uhzj6140q/Firewatch.ddw/file",
         "themeType": "art",
         "displayName": null,
         "imageCredits": "Olly Moss",
         "fileHash": "9aedbafa939519953e2a8588465775ac",
         "fileSize": 1030629,
-        "dateAdded": "2019-04-12",
+        "dateAdded": "2021-04-21",
         "imageSize": [
             1920,
             1080
@@ -356,13 +392,13 @@
         ]
     },
     "Firewatch_Tower": {
-        "themeUrl": "https://bitbucket.org/t1m0thyj/wdd-themes/downloads/Firewatch_Tower.ddw",
+        "themeUrl": "https://www.mediafire.com/file/yv0je8geo16a6mj/Firewatch_Tower.ddw/file",
         "themeType": "art",
         "displayName": null,
         "imageCredits": "Olly Moss",
         "fileHash": "0db21fd32680892e833facb03757bbc1",
         "fileSize": 8776386,
-        "dateAdded": "2020-01-12",
+        "dateAdded": "2021-04-21",
         "imageSize": [
             3840,
             2160
@@ -402,6 +438,23 @@
         ],
         "sunPhases": null
     },
+    "High_Mountains": {
+        "themeUrl": "https://www.mediafire.com/file/olrnxmv2p6bv308/High_Mountains.ddw/file",
+        "themeType": "art",
+        "displayName": "High Mountains",
+        "imageCredits": "Hexandcube (https://hexandcube.tk)",
+        "fileHash": "3d2873076b26d187b99998d1f18a97f5",
+        "fileSize": 190649,
+        "dateAdded": "2021-04-21",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "24hr-HighSierra": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/high-sierra-windd",
         "themeType": "paid",
@@ -431,13 +484,13 @@
         "sunPhases": null
     },
     "iOS_13_Black": {
-        "themeUrl": "https://bitbucket.org/t1m0thyj/wdd-themes/downloads/iOS_13_Black.ddw",
+        "themeUrl": "https://www.mediafire.com/file/t8re8m95wgip8vg/iOS_13_Black.ddw/file",
         "themeType": "art",
         "displayName": null,
         "imageCredits": "Apple",
         "fileHash": "095adc7f96847c0278ae6d200824acb1",
         "fileSize": 3644174,
-        "dateAdded": "2019-10-12",
+        "dateAdded": "2021-04-21",
         "imageSize": [
             3208,
             1804
@@ -448,13 +501,13 @@
         ]
     },
     "iOS_13_Blue": {
-        "themeUrl": "https://bitbucket.org/t1m0thyj/wdd-themes/downloads/iOS_13_Blue.ddw",
+        "themeUrl": "https://www.mediafire.com/file/fhllonyn96r7l0o/iOS_13_Blue.ddw/file",
         "themeType": "art",
         "displayName": null,
         "imageCredits": "Apple",
         "fileHash": "f964322ac45bd21181da1381a662c0a7",
         "fileSize": 4243463,
-        "dateAdded": "2019-10-12",
+        "dateAdded": "2021-04-21",
         "imageSize": [
             3208,
             1804
@@ -465,13 +518,13 @@
         ]
     },
     "iOS_13_Green": {
-        "themeUrl": "https://bitbucket.org/t1m0thyj/wdd-themes/downloads/iOS_13_Green.ddw",
+        "themeUrl": "https://www.mediafire.com/file/dkmai7jxgi8ov1m/iOS_13_Green.ddw/file",
         "themeType": "art",
         "displayName": null,
         "imageCredits": "Apple",
         "fileHash": "4e1c09fa06560d0f9446cbbe15123875",
         "fileSize": 3926920,
-        "dateAdded": "2019-10-12",
+        "dateAdded": "2021-04-21",
         "imageSize": [
             3208,
             1804
@@ -482,13 +535,13 @@
         ]
     },
     "iOS_13_Red": {
-        "themeUrl": "https://bitbucket.org/t1m0thyj/wdd-themes/downloads/iOS_13_Red.ddw",
+        "themeUrl": "https://www.mediafire.com/file/hmcf2uz47rfpu86/iOS_13_Red.ddw/file",
         "themeType": "art",
         "displayName": null,
         "imageCredits": "Apple",
         "fileHash": "bb79793861229e92bc2dabd3dd94c68c",
         "fileSize": 4076948,
-        "dateAdded": "2019-10-12",
+        "dateAdded": "2021-04-21",
         "imageSize": [
             3208,
             1804
@@ -513,13 +566,13 @@
         "sunPhases": null
     },
     "Licancabur": {
-        "themeUrl": "https://bitbucket.org/t1m0thyj/wdd-themes/downloads/Licancabur.ddw",
+        "themeUrl": "https://www.mediafire.com/file/cg8cuwopdqik9x2/Licancabur.ddw/file",
         "themeType": "photos",
         "displayName": null,
         "imageCredits": "gumoreira",
         "fileHash": "113968765ea80549f352f938be5f504c",
         "fileSize": 11893084,
-        "dateAdded": "2019-10-09",
+        "dateAdded": "2021-04-21",
         "imageSize": [
             4640,
             2610
@@ -570,6 +623,25 @@
             2880
         ],
         "sunPhases": null
+    },
+    "Magic_Castle": {
+        "themeUrl": "https://www.mediafire.com/file/3ddddma4qlllgat/Magic_Castle.ddw/file",
+        "themeType": "art",
+        "displayName": null,
+        "imageCredits": "Valerii Siserg",
+        "fileHash": "f60206ea7d2a2e66332c4c4623452b13",
+        "fileSize": 7990101,
+        "dateAdded": "2021-04-21",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
     },
     "24hr-Malibu": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/malibu-windd",
@@ -628,13 +700,13 @@
         "sunPhases": null
     },
     "Mojave_XP": {
-        "themeUrl": "https://bitbucket.org/t1m0thyj/wdd-themes/downloads/Mojave_XP.ddw",
+        "themeUrl": "https://www.mediafire.com/file/t5uwbz0oh9r6cul/Mojave_XP.ddw/file",
         "themeType": "photos",
         "displayName": null,
         "imageCredits": "legrisch",
         "fileHash": "a14962b4593392f0aed2f80a92ae6d15",
         "fileSize": 23705621,
-        "dateAdded": "2020-01-12",
+        "dateAdded": "2021-04-21",
         "imageSize": [
             4510,
             2536
@@ -842,6 +914,25 @@
         ],
         "sunPhases": null
     },
+    "Crew2_M4_Canyon": {
+        "themeUrl": "https://www.mediafire.com/file/4al16dt4itfi5tt/Crew2_M4_Canyon.ddw/file",
+        "themeType": "photos",
+        "displayName": "The Crew 2 BMW M4 in the Canyons",
+        "imageCredits": "Ubisoft/MAXYMOK",
+        "fileHash": "5e4d3d718055851c7d77b89832bafedf",
+        "fileSize": 45812355,
+        "dateAdded": "2021-04-21",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-Tokyo-Mix": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/tokyo-mix-windd",
         "themeType": "paid",
@@ -869,6 +960,59 @@
             2880
         ],
         "sunPhases": null
+    },
+    "Win10_XP": {
+        "themeUrl": "https://www.mediafire.com/file/fl250nxd1uf6use/Win10_XP.ddw/file",
+        "themeType": "art",
+        "displayName": null,
+        "imageCredits": "TheRealGamer/TRG on YT",
+        "fileHash": "f715a2bac7e48f20a15e04deac698abe",
+        "fileSize": 4205420,
+        "dateAdded": "2021-04-21",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Windows": {
+        "themeUrl": "https://www.mediafire.com/file/vy3pmrzdfu8dz1j/Windows.ddw/file",
+        "themeType": "art",
+        "displayName": null,
+        "imageCredits": "MSFT",
+        "fileHash": "75935e9a9a8bb311d0fe5cbfc9ffee30",
+        "fileSize": 1083001,
+        "dateAdded": "2021-04-21",
+        "imageSize": [
+            1920,
+            1200
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Windows_Insider": {
+        "themeUrl": "https://www.mediafire.com/file/rv8wjk8jmmdet72/Windows_Insider.ddw/file",
+        "themeType": "art",
+        "displayName": "Windows Insider",
+        "imageCredits": "Microsoft",
+        "fileHash": "fdb6e7de14d697342577bd6d0b4cb133",
+        "fileSize": 2134348,
+        "dateAdded": "2021-04-21",
+        "imageSize": [
+            4092,
+            2298
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
     },
     "24hr-YosemiteLukens": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/yosemite-lukens-windd",
@@ -913,13 +1057,13 @@
         "sunPhases": null
     },
     "Your_Name": {
-        "themeUrl": "https://bitbucket.org/t1m0thyj/wdd-themes/downloads/Your_Name.ddw",
+        "themeUrl": "https://www.mediafire.com/file/2telqk5hrun40vv/Your_Name.ddw/file",
         "themeType": "art",
         "displayName": null,
         "imageCredits": "wallpapyrus",
         "fileHash": "dc1fe8a778b3ed781334d330798ba629",
         "fileSize": 27952845,
-        "dateAdded": "2019-10-09",
+        "dateAdded": "2021-04-21",
         "imageSize": [
             3840,
             2160
