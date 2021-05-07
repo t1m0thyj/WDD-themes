@@ -138,6 +138,44 @@
             "night"
         ]
     },
+    "BotW_Dueling_Peaks_Stable": {
+        "themeUrl": "https://www.mediafire.com/file/c0i78wyb8grutvm/BotW_Dueling_Peaks_Stable.ddw/file",
+        "themeType": "art",
+        "displayName": "BotW - Dueling Peaks Stable",
+        "imageCredits": "Nintendo",
+        "fileHash": "26e57f4bf04c1e6f943bf53c9ec60c89",
+        "fileSize": 14318862,
+        "dateAdded": "2021-05-07",
+        "imageSize": [
+            2560,
+            1440
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "BotW_The_Great_Plateau": {
+        "themeUrl": "https://www.mediafire.com/file/wsr7htcwsn6am7d/BotW_The_Great_Plateau.ddw/file",
+        "themeType": "art",
+        "displayName": "BotW - The Great Plateau",
+        "imageCredits": "Nintendo",
+        "fileHash": "9f60ba3267a4d5d565d5fe78238422d0",
+        "fileSize": 10887045,
+        "dateAdded": "2021-05-07",
+        "imageSize": [
+            2560,
+            1440
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-Bristlecone": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/bristlecone-pine-windd",
         "themeType": "paid",
