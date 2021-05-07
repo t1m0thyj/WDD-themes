@@ -157,6 +157,82 @@
             "night"
         ]
     },
+    "BotW_Hateno_Village": {
+        "themeUrl": "https://www.mediafire.com/file/zp9i07ax66z1hyy/BotW_Hateno_Village.ddw/file",
+        "themeType": "art",
+        "displayName": "BotW - Hateno Village",
+        "imageCredits": "Nintendo",
+        "fileHash": "428f41083fabaaca64cff9b18693d234",
+        "fileSize": 16414653,
+        "dateAdded": "2021-05-07",
+        "imageSize": [
+            2560,
+            1440
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "BotW_Kakariko_Village": {
+        "themeUrl": "https://www.mediafire.com/file/cxj8s83tey1nsu9/BotW_Kakariko_Village.ddw/file",
+        "themeType": "art",
+        "displayName": "BotW - Kakariko Village",
+        "imageCredits": "Nintendo",
+        "fileHash": "c70cd1dcee5ec0039017fdc66ec62483",
+        "fileSize": 22504996,
+        "dateAdded": "2021-05-07",
+        "imageSize": [
+            2560,
+            1440
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "BotW_Lovers_Pond": {
+        "themeUrl": "https://www.mediafire.com/file/95p3d27fkk6q45b/BotW_Lovers_Pond.ddw/file",
+        "themeType": "art",
+        "displayName": "BotW - Lover's Pond",
+        "imageCredits": "Nintendo",
+        "fileHash": "8bf2754e6664164d3f0bea49e778213a",
+        "fileSize": 20250958,
+        "dateAdded": "2021-05-07",
+        "imageSize": [
+            2560,
+            1440
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "BotW_Lurelin_Village": {
+        "themeUrl": "https://www.mediafire.com/file/bdab1fqyt6fw0ah/BotW_Lurelin_Village.ddw/file",
+        "themeType": "art",
+        "displayName": "BotW - Lurelin Village",
+        "imageCredits": "Nintendo",
+        "fileHash": "4555617499d2f9398c070dfbe6073c8e",
+        "fileSize": 17722628,
+        "dateAdded": "2021-05-07",
+        "imageSize": [
+            2560,
+            1440
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "BotW_The_Great_Plateau": {
         "themeUrl": "https://www.mediafire.com/file/wsr7htcwsn6am7d/BotW_The_Great_Plateau.ddw/file",
         "themeType": "art",
