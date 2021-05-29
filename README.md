@@ -31,35 +31,10 @@ Sign up for a MediaFire account if you don't have one yet. Then log in to upload
 
 ![Upload and copy share link](images/mediafire_upload.png)
 
-### Create pull request for your theme
+### Submit your theme to the website
 
-Open a pull request (PR) in this repository to add your theme to the list on the [WDD Themes site](https://windd.info/themes/). Only one of the following files must be updated in your PR:
+Submit your theme using this Google form: https://forms.gle/sxS97seQj4QhKMM48
 
-- [`themes/art.yaml`](themes/art.yaml) if the images in your theme are artwork
-- [`themes/photos.yaml`](themes/photos.yaml) if the images in your theme are photographs
+After submitting your theme it will be automatically scanned. If issues are detected you will receive an email listing the problems found.
 
-Find one of these files on GitHub and click the pencil icon to fork this repository and edit the file:
-
-![Edit the file in your fork of this project](images/github_edit_file.png)
-
-You only need to add two lines to the YAML file for your theme:
-```yaml
-<theme_id>:
-- <theme_url>
-```
-
-After adding these lines, label your changes with "Add &lt;themeName&gt; theme" and click "Propose changes":
-
-![Propose changes](images/github_propose_changes.png)
-
-Confirm your changes and click through the green buttons labeled "Create pull request".
-
-After your PR has been created, wait for the Check Theme task to run. It will scan your .ddw file to check that it meets all the requirements listed above. If the scan fails, click the "Details" link to find out why:
-
-![All checks have failed](images/github_fail_details.png)
-
-If any issues are reported, fix them and rerun the Check Theme task by posting a comment with the line `/check-theme`:
-
-![Check Theme comment](images/github_check_theme.png)
-
-Once the Check Theme task has succeeded, your theme is ready to be published. A WDD theme reviewer will merge your pull request to add it to the [WDD Themes site](https://windd.info/themes/).
+Once you receive an email saying your theme has been approved, your theme is ready to be published and a WDD theme reviewer will add it to the [WDD Themes site](https://windd.info/themes/).
